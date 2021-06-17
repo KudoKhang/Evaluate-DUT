@@ -1,5 +1,4 @@
 from selenium import webdriver
-import pandas as pd
 from time import sleep
 from selenium.webdriver.common.keys import Keys
 from datetime import datetime, timedelta
