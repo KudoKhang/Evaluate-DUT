@@ -16,14 +16,14 @@ def login(username, password):
     btnPass.send_keys(password)
     browser.find_element_by_id("QLTH_btnLogin").click()
 
-login("122170034", "fngdfklgFU123")
+login("----------", "-----------")
 sleep(1)
 
 list = open('links.txt')
 links = list.readlines()
 linkId = 0
 
-while linkId < len(links):
+while linkId < len(links) + 1:
     url  = links[linkId]
     browser.get(url)
     id = 1
